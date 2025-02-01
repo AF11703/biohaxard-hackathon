@@ -1,0 +1,5 @@
+.venv
+.env
+sessions/User_01/session.info
+sessions/User_01/events.csv
+mindwave.log
