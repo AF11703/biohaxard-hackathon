@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt 
 
-base_path = Path(os.getenv('BASE_PATH'))
+base_path = Path(os.getenv('BASE_PATH')) #this path should correspond to the data.csv file which is generated after using mindwave.py
 
 data_files = list(base_path.glob("*/data.csv"))
 
